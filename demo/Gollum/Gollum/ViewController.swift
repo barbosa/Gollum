@@ -20,4 +20,7 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBAction func tapButton() {
+        print("Button tapped")
+    }
 }
