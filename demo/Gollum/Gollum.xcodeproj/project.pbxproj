@@ -19,9 +19,11 @@
 		335264901D0484DD00050D8E /* VersionDAOError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3352648F1D0484DD00050D8E /* VersionDAOError.swift */; };
 		335264911D0484DD00050D8E /* VersionDAOError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3352648F1D0484DD00050D8E /* VersionDAOError.swift */; };
 		335264931D04B67B00050D8E /* GollumUserDefaultHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335264921D04B67B00050D8E /* GollumUserDefaultHelper.swift */; };
+		335264961D04BEBE00050D8E /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 335264951D04BEBE00050D8E /* NextViewController.m */; };
+		335264991D04C0B400050D8E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 335264981D04C0B400050D8E /* ViewController.xib */; };
+		3352649B1D04C2B800050D8E /* NextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3352649A1D04C2B800050D8E /* NextViewController.xib */; };
 		335A5B831CFA4C82002C528F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335A5B821CFA4C82002C528F /* AppDelegate.swift */; };
 		335A5B851CFA4C82002C528F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335A5B841CFA4C82002C528F /* ViewController.swift */; };
-		335A5B881CFA4C82002C528F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335A5B861CFA4C82002C528F /* Main.storyboard */; };
 		335A5B8A1CFA4C82002C528F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 335A5B891CFA4C82002C528F /* Assets.xcassets */; };
 		335A5B8D1CFA4C82002C528F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335A5B8B1CFA4C82002C528F /* LaunchScreen.storyboard */; };
 		335A5BAA1CFA577D002C528F /* VersionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335A5BA91CFA577D002C528F /* VersionTest.swift */; };
@@ -53,10 +55,14 @@
 		3352648D1D0475C100050D8E /* VersionUserDefaultDAOTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VersionUserDefaultDAOTest.swift; path = ../../../tests/VersionUserDefaultDAOTest.swift; sourceTree = "<group>"; };
 		3352648F1D0484DD00050D8E /* VersionDAOError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersionDAOError.swift; sourceTree = "<group>"; };
 		335264921D04B67B00050D8E /* GollumUserDefaultHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GollumUserDefaultHelper.swift; path = ../../../tests/GollumUserDefaultHelper.swift; sourceTree = "<group>"; };
+		335264941D04BEBE00050D8E /* Gollum-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gollum-Bridging-Header.h"; sourceTree = "<group>"; };
+		335264951D04BEBE00050D8E /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		335264971D04BEE200050D8E /* NextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		335264981D04C0B400050D8E /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		3352649A1D04C2B800050D8E /* NextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NextViewController.xib; sourceTree = "<group>"; };
 		335A5B7F1CFA4C82002C528F /* Gollum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gollum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		335A5B821CFA4C82002C528F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		335A5B841CFA4C82002C528F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		335A5B871CFA4C82002C528F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		335A5B891CFA4C82002C528F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		335A5B8C1CFA4C82002C528F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		335A5B8E1CFA4C82002C528F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -109,6 +115,9 @@
 				335A5B821CFA4C82002C528F /* AppDelegate.swift */,
 				335A5B841CFA4C82002C528F /* ViewController.swift */,
 				33E91F061CFE7B95007E443C /* MyAdorableABTest.swift */,
+				335264971D04BEE200050D8E /* NextViewController.h */,
+				335264951D04BEBE00050D8E /* NextViewController.m */,
+				335264941D04BEBE00050D8E /* Gollum-Bridging-Header.h */,
 				33E91F081CFE7BC7007E443C /* src */,
 				33E91F091CFE7BED007E443C /* Support Files */,
 			);
@@ -148,7 +157,8 @@
 				335A5B891CFA4C82002C528F /* Assets.xcassets */,
 				335A5B8E1CFA4C82002C528F /* Info.plist */,
 				335A5B8B1CFA4C82002C528F /* LaunchScreen.storyboard */,
-				335A5B861CFA4C82002C528F /* Main.storyboard */,
+				335264981D04C0B400050D8E /* ViewController.xib */,
+				3352649A1D04C2B800050D8E /* NextViewController.xib */,
 			);
 			name = "Support Files";
 			sourceTree = "<group>";
@@ -235,8 +245,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				335A5B8D1CFA4C82002C528F /* LaunchScreen.storyboard in Resources */,
+				3352649B1D04C2B800050D8E /* NextViewController.xib in Resources */,
 				335A5B8A1CFA4C82002C528F /* Assets.xcassets in Resources */,
-				335A5B881CFA4C82002C528F /* Main.storyboard in Resources */,
+				335264991D04C0B400050D8E /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +269,7 @@
 				335A5B851CFA4C82002C528F /* ViewController.swift in Sources */,
 				335A5B831CFA4C82002C528F /* AppDelegate.swift in Sources */,
 				33E91F071CFE7B95007E443C /* MyAdorableABTest.swift in Sources */,
+				335264961D04BEBE00050D8E /* NextViewController.m in Sources */,
 				332AE1831CFF0D9C002F7471 /* GollumError.swift in Sources */,
 				332AE1841CFF0D9C002F7471 /* Version.swift in Sources */,
 				335264901D0484DD00050D8E /* VersionDAOError.swift in Sources */,
@@ -296,14 +308,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		335A5B861CFA4C82002C528F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				335A5B871CFA4C82002C528F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		335A5B8B1CFA4C82002C528F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -402,10 +406,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Gollum/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eduardoeof.Gollum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Gollum/Gollum-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -413,10 +420,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Gollum/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eduardoeof.Gollum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Gollum/Gollum-Bridging-Header.h";
 			};
 			name = Release;
 		};

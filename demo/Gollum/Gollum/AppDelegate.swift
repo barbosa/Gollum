@@ -11,11 +11,19 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
+    var navigationController: UINavigationController?
 
     func application(application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        try! Gollum.instance.registerVersions([MyAdorableABTest.A, MyAdorableABTest.B])
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        navigationController = UINavigationController(rootViewController: ViewController())
         
+        window?.rootViewController = navigationController
+
+        try! Gollum.instance.registerVersions([MyAdorableABTest.A, MyAdorableABTest.B])
+
+        window?.makeKeyAndVisible()
+
         return true
     }
 }

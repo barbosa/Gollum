@@ -9,7 +9,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -21,6 +20,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func tapButton() {
-        print("Button tapped")
+        let controller = NextViewController()
+        navigationController?.pushViewController(controller, animated: true)
     }
 }
